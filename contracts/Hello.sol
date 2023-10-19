@@ -14,12 +14,17 @@ contract MyFirstContract {
     string public hey;
     uint256 public no;
 
-    // WAY 2
+    // WAY 2 -> USE OF CONSTRUCTOR
     // constructor(string memory _hey, uint _no) {
     //     hey = _hey;
     //     no = _no;
     // }
 
-    // WAY 3
+    // WAY 3 USE OF FUNCTION
+
+    function addInfo(string memory _hey, uint _no) public  {
+        hey = _hey;
+        no = _no;
+    }
 
 }
