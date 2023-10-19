@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NftCountDapp.sol": "Nft"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NftCountDapp.sol": {
+			"keccak256": "0x48496dfba7bf8f30dca4746027419885d1b5edb4efd55411fd9ec6723fd954e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://057885bc0e17e4fc6077526feb428194efda349051fb4c9b7061717f5e7290f8",
+				"dweb:/ipfs/QmS7NqJ7CR5jdUM7h1R8TjA2H3B5MaJFti37nFYzvEAm81"
+			]
+		}
+	},
+	"version": 1
+}
