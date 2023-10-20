@@ -24,11 +24,14 @@ contract StateVariable {
 
 contract LocalVariable {  
 //  Variables that are defined inside the function are called local variable
+//  Not going to store on the blockchain
     
     uint256 public myNumber;
 
-    function local() public {
-
+    function local() public returns(uint256) {
+        uint256 i = 345;
+        myNumber = i;
+        return myNumber;
     }
 
 }

@@ -8,7 +8,13 @@
 			{
 				"inputs": [],
 				"name": "local",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -54,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Variables.sol": {
-			"keccak256": "0x1947c7e5cc1849fd020df3c62859fb587b5e8a2a67079196a60ecf25a4814101",
+			"keccak256": "0x321623922442c3cd0df13b352c8d073e2553d5346b9808aba3693efaa95c90c1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8f8f6ffa19358d7ff8c30d20e77a7550d4baefec99cfb569b4199d74871cbc85",
-				"dweb:/ipfs/QmZ8PX8NoHFKRoxZefZdPZvcJLH9tBTMNv3fHfa3C7fPTN"
+				"bzz-raw://75f9269bf81a072f5af3d707e970c769e30d7592650289ce8d8e15d794d0556e",
+				"dweb:/ipfs/QmUV6JJ5H9BDaTSyXHS8HUvDN3RnSm3tYWM7ueqoLuov4u"
 			]
 		}
 	},
