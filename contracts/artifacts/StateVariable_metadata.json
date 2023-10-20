@@ -6,6 +6,67 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_myState",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_myNum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "array",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "defaultByte",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "defaultBytesNo",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "defaultNum",
 				"outputs": [
@@ -36,9 +97,9 @@
 				"name": "myNum",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -86,11 +147,11 @@
 	},
 	"sources": {
 		"contracts/Variables.sol": {
-			"keccak256": "0xfaf58cca39d7ee1817f2e544bb1ad26ef720614b2fa28a4d86504bd04f64c7f9",
+			"keccak256": "0x1947c7e5cc1849fd020df3c62859fb587b5e8a2a67079196a60ecf25a4814101",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d20f6039ba4dc4df06ce18d7d199405402b897ea2f7ec050fb954a58aeec980",
-				"dweb:/ipfs/Qmbpo6AG67K9JsdywBKibicDUiz5dzHe94hBQiZFfrNjx8"
+				"bzz-raw://8f8f6ffa19358d7ff8c30d20e77a7550d4baefec99cfb569b4199d74871cbc85",
+				"dweb:/ipfs/QmZ8PX8NoHFKRoxZefZdPZvcJLH9tBTMNv3fHfa3C7fPTN"
 			]
 		}
 	},
