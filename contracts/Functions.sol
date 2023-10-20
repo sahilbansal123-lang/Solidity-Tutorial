@@ -6,7 +6,6 @@ pragma solidity ^0.8.13;
 //    - Declarative
 //    - Non Declarative
 
-
 contract LearnFunction {
     
     uint256 hey;
