@@ -21,8 +21,9 @@ contract LearnFunction {
         hey = _hey;
     }   
 
-    function get(uint256 _a, uint256 _b) public view returns(uint) {
+    function get(uint256 _a, uint256 _b) public returns(uint) {
         uint256 newNumber = _a + _b;
-        return newNumber;
+        hey = newNumber;
+        return hey;
     }
 }
