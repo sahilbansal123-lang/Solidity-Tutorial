@@ -4,7 +4,60 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "defaultNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "defaultText",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myNum",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myState",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +86,11 @@
 	},
 	"sources": {
 		"contracts/Variables.sol": {
-			"keccak256": "0x378b6609a82787c051baf55c8f540d04821f84b1f29dcb5614214e6e8f88afb3",
+			"keccak256": "0xfaf58cca39d7ee1817f2e544bb1ad26ef720614b2fa28a4d86504bd04f64c7f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b9feb45fd3c813d111af51fd57754b82f28b258a015bc242923c70d45abc4e03",
-				"dweb:/ipfs/QmSkspcGbwtxKhsL3STE4x85x7z4dq4aEX5qjsFkEEJtvG"
+				"bzz-raw://5d20f6039ba4dc4df06ce18d7d199405402b897ea2f7ec050fb954a58aeec980",
+				"dweb:/ipfs/Qmbpo6AG67K9JsdywBKibicDUiz5dzHe94hBQiZFfrNjx8"
 			]
 		}
 	},
