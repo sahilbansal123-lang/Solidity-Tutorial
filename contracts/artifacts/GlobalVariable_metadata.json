@@ -7,25 +7,17 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "local",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "myNumber",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Variables.sol": "LocalVariable"
+			"contracts/Variables.sol": "GlobalVariable"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

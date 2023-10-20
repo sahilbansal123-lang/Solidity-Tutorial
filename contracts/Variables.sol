@@ -35,3 +35,12 @@ contract LocalVariable {
     }
 
 }
+
+contract GlobalVariable {
+    
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
+    }
+}
