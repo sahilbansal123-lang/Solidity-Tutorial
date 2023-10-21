@@ -34,97 +34,6 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "endAt",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "message",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numberOfTicket",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "startAt",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "ticketPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "timeRange",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalAmount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -155,11 +64,11 @@
 	},
 	"sources": {
 		"contracts/EventTicket.sol": {
-			"keccak256": "0x3c0ba17a72fe295e866941da70426e1be49e73bb97e30fefac2ebb940b45e8e7",
+			"keccak256": "0x7ba581562ea6e77f6f047093579f231d65d6cd269a6ed9262ede76770b9b1ec1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e6ec227aa3bb9b6a63af2e2b899af9069187c6f17339086f7d63691b28eb5ee5",
-				"dweb:/ipfs/QmatnE6cPGBsGZ6AELxA2kt9wcSGgZoGV8WU8RgWBKNApr"
+				"bzz-raw://22a5ff59848ab697788df76eed09c198274c3012de62cc2c1d5860d7bc149477",
+				"dweb:/ipfs/Qmf56oTqRy2Y1ECCVWkFR8gv8wDBahGgtobKK9CvYE8oiE"
 			]
 		}
 	},
