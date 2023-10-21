@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ConstantKeyword.sol": "Name"
+			"contracts/ConstantKeyword.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/ConstantKeyword.sol": {
-			"keccak256": "0xd6f7cba7a851c5aff981fa686ed647bfa314ef82834a84b814bee0cadd1a6f29",
+			"keccak256": "0x0fc4e49a0a562ca20cd078505c74c80805c32ca0ef9bccd6cd3126610eeed9f5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://56f48dc4923d91c84f8dd19b0152bf36cfb6dd7ad9015b7ec75a6fcd5cfce2bc",
-				"dweb:/ipfs/QmcXdR2KgvrcbVQ2CBpdrbX9v4jUrTRY1oBkXvF4uhHCbr"
+				"bzz-raw://87c4e22795d7310a6b068e1ea7b1662834e59553ce2b3ee2a7541fd2cbfe4f1a",
+				"dweb:/ipfs/QmZvRvMDwsysfzvLuu6Fq2qUPDn3pcSGWU7XYsYZYYFZFT"
 			]
 		}
 	},
