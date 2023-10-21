@@ -34,4 +34,10 @@ contract Pure {
         return (num1, num2);
     }
 
+    // NO ERROR BECAUSE VIEW KEYWORD ALLOWS US TO ACCESS THE DATA BUT DOESNOT CHANGE.
+    function getInfo() public view returns(uint256, uint256) {
+        return (num1, num2);
+    }
+
+
 }
