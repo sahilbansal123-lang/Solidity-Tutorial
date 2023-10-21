@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getResult",
+				"name": "getData",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -17,24 +17,6 @@
 					{
 						"internalType": "uint256",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getResults",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "product",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "total",
 						"type": "uint256"
 					}
 				],
@@ -55,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ViewPure.sol": "View"
+			"contracts/ViewPure.sol": "Pure"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

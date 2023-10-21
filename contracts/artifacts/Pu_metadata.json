@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ViewPure.sol": "Pu"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ViewPure.sol": {
+			"keccak256": "0x57a59b2a374b299eec442bb6a961b1827bb1c31dce0aec86d68d95407422edc9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e2e7d65ddd6dd377dcc81c0a9632e121f79fb9abbb65d36b041eec4456e8151f",
+				"dweb:/ipfs/QmYn6GeNUQ21dR6Vm5gGoDpireKP7hdLWUFExMoazREcSf"
+			]
+		}
+	},
+	"version": 1
+}
