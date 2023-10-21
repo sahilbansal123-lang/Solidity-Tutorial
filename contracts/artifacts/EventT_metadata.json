@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/EventTicket.sol": "Name"
+			"contracts/EventTicket.sol": "EventT"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/EventTicket.sol": {
-			"keccak256": "0xd6f7cba7a851c5aff981fa686ed647bfa314ef82834a84b814bee0cadd1a6f29",
+			"keccak256": "0xa2a8975f3ff354240ce0ac6df36ed55b3dc29a9a0ae6b16cd224edc6dc2786ca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://56f48dc4923d91c84f8dd19b0152bf36cfb6dd7ad9015b7ec75a6fcd5cfce2bc",
-				"dweb:/ipfs/QmcXdR2KgvrcbVQ2CBpdrbX9v4jUrTRY1oBkXvF4uhHCbr"
+				"bzz-raw://0bc7cf950212694e2970544ffb4f9f6b50ba24581d4b91fb6dbb0821a66a5818",
+				"dweb:/ipfs/QmZgEPWrUWHGrrXj8tyqP1wsJZ192xNfyp5qxWGo8wQWjf"
 			]
 		}
 	},
