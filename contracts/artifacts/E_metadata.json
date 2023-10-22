@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Enums.sol": "Name"
+			"contracts/Enums.sol": "E"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Enums.sol": {
-			"keccak256": "0xd6f7cba7a851c5aff981fa686ed647bfa314ef82834a84b814bee0cadd1a6f29",
+			"keccak256": "0x044ce873fd37ab7d2d089cad2d10ed94c540c142d9d603ba81fde9cd3510ebf3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://56f48dc4923d91c84f8dd19b0152bf36cfb6dd7ad9015b7ec75a6fcd5cfce2bc",
-				"dweb:/ipfs/QmcXdR2KgvrcbVQ2CBpdrbX9v4jUrTRY1oBkXvF4uhHCbr"
+				"bzz-raw://2950bafaa8023de50e2903b3ea5e350429c1dc30eda9568131816aae0cb0d3b9",
+				"dweb:/ipfs/QmSoH87btywYLoyJJn4aVh7ymfArJrrdabEeN2WV61FanZ"
 			]
 		}
 	},
