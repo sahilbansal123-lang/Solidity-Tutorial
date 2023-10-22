@@ -18,5 +18,17 @@ contract Enums {
         return status;
     }
 
+    function setStatus(Status _status) public {
+        status = _status;
+    }
+
+    function cacncel() public  {
+        status = Status.Canceled;
+    }
+
+    function reset() public {
+        delete status;
+    }   
+
     
 }
