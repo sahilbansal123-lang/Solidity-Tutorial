@@ -21,5 +21,23 @@ contract Mapping {
         // reset the value to default
         delete myMap[_addr];
     }
+}
 
+contract NestedMapping {
+    // Nested Mapping is a concept in which we map Address to another Mapping
+    mapping (address => mapping(uint => bool)) public nested;
+
+    function get(address _addr, uint _id) public view returns (bool) {
+        // you can get values from a nested mapping
+        // even when it is not initialized
+        return  nested[_addr][_id];
+    }
+
+    function set(address _addr, uint _id, bool _boo ) public {
+        nested[_addr][_id] = _boo;
+    }
+
+    function remove( address _addr, uint _id) public {
+        delete nested[_addr][_id];
+    }
 }
