@@ -65,6 +65,37 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "toggleCompleted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "updateText",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -95,11 +126,11 @@
 	},
 	"sources": {
 		"contracts/Structs.sol": {
-			"keccak256": "0xcb0d426f1a1616f5300d86244f49df9b68c68a1987f7ac74f95ce8d42215fef0",
+			"keccak256": "0x4df16a366b757ea6c12dbcc598c1c28c74d07c35040f0b158d8f2eec0d4b6102",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://930623e5a0518ee7d4b3e6e473cfd5fa256f7047fcbca7ab7fd1a2431e7124b7",
-				"dweb:/ipfs/QmWv3oV8RNVvzE2sgEcogxr2DfP45ozsQCMoMKZURQTcvM"
+				"bzz-raw://7b5c065ea850a21202ded5ee33e62d1acaff6d26383ed3ffc5401e9817bc6975",
+				"dweb:/ipfs/QmXjknLqKNaV1KQ2XFVzNFi33jM5T6LHM3n8QtX36tB5uY"
 			]
 		}
 	},
