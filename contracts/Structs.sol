@@ -17,13 +17,13 @@ contract Todos {
         todos.push(Todo(_text, false));
 
         // 2. key value mapping
-        todos.push(Todo({text: _text, completed: false}));
+        // todos.push(Todo({text: _text, completed: false}));
 
         // 3. initialize an empty struct and then update
-        Todo memory todo;
-        todo.text = _text;
-        // todo.completed is initializes with false
-        todos.push(todo);
+        // Todo memory todo;
+        // todo.text = _text;
+        // // todo.completed is initializes with false
+        // todos.push(todo);
 
     }
 
@@ -42,5 +42,5 @@ contract Todos {
         todo.completed = !todo.completed;
     }
 
-    
+
 }
