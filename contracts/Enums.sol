@@ -30,5 +30,5 @@ contract Enums {
         delete status;
     }   
 
-    
 }
+

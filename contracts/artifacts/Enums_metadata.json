@@ -87,11 +87,11 @@
 	},
 	"sources": {
 		"contracts/Enums.sol": {
-			"keccak256": "0x939bfa144d90595b01eaa3a736355ed1197fdcb15cd846ea28759b48f3fb9f26",
+			"keccak256": "0x8c23e056dddd9916e897b27e574077a10fcbfa5fa537a6e343048a700e9fe6e9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://63cc31efcab82ee94736c2825645f64f7bc8bb3ecdac64131247c02887f1fa3c",
-				"dweb:/ipfs/QmXjjqMDp8WarNLsdrp9ASwJYi4xF6x3thWDgYbja9MoKt"
+				"bzz-raw://02f1f39e58b299391cc076282e29e7ae124959d9f3d6077c47d91cd904285ab1",
+				"dweb:/ipfs/QmfAtf7NY5w7Lw2QmXce3SER54fbW1WXxuyp51mupmXPqW"
 			]
 		}
 	},
