@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Interfaces.sol": "Name"
+			"contracts/Interfaces.sol": "I"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Interfaces.sol": {
-			"keccak256": "0xdd71ddf7ef3d6f9799512953dc01a25917550b8fcc04101204084120a43686db",
+			"keccak256": "0x181c56d08a27a024018b76816bf9422b53a3de6f2319603bfd499ed4e09363c4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b04463df77570f7d8e26e869beec206b147436a930844d35bf95c404fed363c9",
-				"dweb:/ipfs/QmSLu1RTaQJTFnG3EnyyZ64RZQch1YSYJhngbkEAZMpr9Z"
+				"bzz-raw://ef4d0d1a0f7ccef9c226389c4a39f8ec6a27cf8b03d475929ad3c101c6bc28ff",
+				"dweb:/ipfs/QmSG1q285rXVZAV9ZKfyuQEa6i4NdqaBoifdeUk6neC9C9"
 			]
 		}
 	},

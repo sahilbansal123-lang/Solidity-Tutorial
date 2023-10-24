@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Interfaces.sol": "Name"
+			"contracts/Interfaces.sol": "ICounter"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Interfaces.sol": {
-			"keccak256": "0xdd71ddf7ef3d6f9799512953dc01a25917550b8fcc04101204084120a43686db",
+			"keccak256": "0x7ae1199902d6e8a022b6b3ad7b9e81699be738ae4197fe252d0e1657d3ddea46",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b04463df77570f7d8e26e869beec206b147436a930844d35bf95c404fed363c9",
-				"dweb:/ipfs/QmSLu1RTaQJTFnG3EnyyZ64RZQch1YSYJhngbkEAZMpr9Z"
+				"bzz-raw://68c83add3661363a46c3b85290694ff3e7655f9f5778130c8e19741e5c6c7146",
+				"dweb:/ipfs/QmeNG7WBhGHetYucArTivkEPnbYuJvGKXDsUJD49KPrPXH"
 			]
 		}
 	},

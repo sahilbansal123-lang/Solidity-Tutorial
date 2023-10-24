@@ -4,7 +4,28 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +54,11 @@
 	},
 	"sources": {
 		"contracts/Interfaces.sol": {
-			"keccak256": "0xf28c9779d24fed6e5baef9dfc326adca54e1d8d24216d3fa4a2736e8fb511c41",
+			"keccak256": "0x7ae1199902d6e8a022b6b3ad7b9e81699be738ae4197fe252d0e1657d3ddea46",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://906c0799313afcfdd7c2a60bc33d5368d2bae084b14012788b19e449bb1658a9",
-				"dweb:/ipfs/QmSrsM2wR1wfUQDKeftYq95v6tyLeGm5yrWA4nuai2PFB9"
+				"bzz-raw://68c83add3661363a46c3b85290694ff3e7655f9f5778130c8e19741e5c6c7146",
+				"dweb:/ipfs/QmeNG7WBhGHetYucArTivkEPnbYuJvGKXDsUJD49KPrPXH"
 			]
 		}
 	},
