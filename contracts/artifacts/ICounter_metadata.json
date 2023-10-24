@@ -17,6 +17,13 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +54,11 @@
 	},
 	"sources": {
 		"contracts/Interfaces.sol": {
-			"keccak256": "0x7ae1199902d6e8a022b6b3ad7b9e81699be738ae4197fe252d0e1657d3ddea46",
+			"keccak256": "0x0fa6c57a53544dc20eaccfbb4e2e02399ba989938e6851e6b7d5903bad90ff2d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://68c83add3661363a46c3b85290694ff3e7655f9f5778130c8e19741e5c6c7146",
-				"dweb:/ipfs/QmeNG7WBhGHetYucArTivkEPnbYuJvGKXDsUJD49KPrPXH"
+				"bzz-raw://d2c7cea8504c3faa7a887b6cd7cf8639e33c32947989766c4e7d6e50ebd2a2e3",
+				"dweb:/ipfs/QmbmjVzpJoDxS2RNmNR6r73dNNY8J6fvedWiU6CffwXCLh"
 			]
 		}
 	},

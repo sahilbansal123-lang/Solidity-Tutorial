@@ -7,22 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "getReserves",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "uint112",
+						"name": "reserve0",
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint112",
+						"name": "reserve1",
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint32",
+						"name": "blockTimeStamp",
+						"type": "uint32"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Interfaces.sol": "Interfaces"
+			"contracts/Interfaces.sol": "UniSwapV2Pair"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

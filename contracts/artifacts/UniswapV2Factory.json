@@ -49,29 +49,32 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"count()": "06661abd",
-			"increment()": "d09de08a"
+			"getPairs(address,address)": "16093fad"
 		}
 	},
 	"abi": [
 		{
-			"inputs": [],
-			"name": "count",
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "tokenA",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "tokenB",
+					"type": "address"
+				}
+			],
+			"name": "getPairs",
 			"outputs": [
 				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
+					"internalType": "address",
+					"name": "pair",
+					"type": "address"
 				}
 			],
 			"stateMutability": "view",
-			"type": "function"
-		},
-		{
-			"inputs": [],
-			"name": "increment",
-			"outputs": [],
-			"stateMutability": "nonpayable",
 			"type": "function"
 		}
 	]
